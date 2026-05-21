@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Cierre y Apertura de Caja - Copy</name>
-   <tag>#LATAM</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>bc9dd8e2-d999-43c1-80a8-f2f1c88c7e69</testCaseGuid>
-</TestCaseEntity>
