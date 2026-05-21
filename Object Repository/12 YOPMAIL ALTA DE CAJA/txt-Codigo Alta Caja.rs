@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt-Codigo Alta Caja</name>
+   <tag></tag>
+   <elementGuidId>da4f1130-b43a-49d1-aa2f-6d54ef5c2e55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mail']/div/table/tbody/tr[4]/td/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(4) > td > p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;685602&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>232fe924-1258-4f50-87ed-9828298513ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>685602</value>
+      <webElementGuid>2e95a284-461b-41e9-a84e-3dce5b12636f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mail&quot;)/div[1]/table[1]/tbody[1]/tr[4]/td[1]/p[1]</value>
+      <webElementGuid>7c74ce6f-264e-4189-8f61-9f98b088dde7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/12 YOPMAIL ALTA DE CAJA/Page_Buzn de Correos/iframe_Undo_ifmail</value>
+      <webElementGuid>30c902e7-c3c4-45a8-97b9-bd97c272943f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mail']/div/table/tbody/tr[4]/td/p</value>
+      <webElementGuid>1564a8dd-966d-42be-8649-4daeb98a381b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='La clave de seguridad para dar de alta su nueva caja es:'])[1]/following::p[1]</value>
+      <webElementGuid>4f3587e9-9a3d-465e-ad77-9d65dc861410</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=''])[1]/following::p[2]</value>
+      <webElementGuid>c2a76fb1-372b-4646-8226-52d47a42c49c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='www.yomp.lat'])[1]/preceding::p[1]</value>
+      <webElementGuid>001304fa-331d-4cef-a9da-125bd20ad07a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='685602']/parent::*</value>
+      <webElementGuid>5a2c6b13-9f43-4e98-8855-0dbf91c98c7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td/p</value>
+      <webElementGuid>0285218a-846d-4337-8c06-9d7e48ed4a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '685602' or . = '685602')]</value>
+      <webElementGuid>95645b82-4538-4418-8ae9-e58c398bc338</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

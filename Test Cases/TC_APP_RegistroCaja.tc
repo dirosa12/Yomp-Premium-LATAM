@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_APP_RegistroCaja</name>
+   <tag>#LATAM</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e5f0023-4aa3-44d7-b03a-10f27d894006</testCaseGuid>
+</TestCaseEntity>

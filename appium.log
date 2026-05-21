@@ -1,0 +1,75 @@
+[38;5;112m[Appium][0m Welcome to Appium v3.3.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m58633[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:58633/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://10.17.190.217:58633/wd/hub
+	http://192.168.1.7:58633/wd/hub
+	http://127.0.0.1:58633/wd/hub (only accessible from the same host)
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@7.1.2 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 110[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 110[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 8.1.0)","appium:newCommandTimeout":1800,"appium:platformVersion":"8.1.0","appium:systemPort":8253,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (Android SDK built for x86 - Android 8.1.0)","appium:newCommandTimeout":1800,"appium:platformVersion":"8.1.0","appium:systemPort":8253,"appium:udid":"emulator-5554","platformName":"ANDROID"}}[39m
+[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: desiredCapabilities
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at C:\Users\dirosa12\.appium\node_modules\appium-uiautomator2-driver
+[38;5;212m[AppiumDriver@f958][0m Appium v3.3.0 creating new AndroidUiautomator2Driver (v7.1.2) session
+[38;5;212m[AppiumDriver@f958][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;212m[AppiumDriver@f958][0m Appium's BaseDriver version is 10.3.0
+[38;5;212m[AppiumDriver@f958][0m AndroidUiautomator2Driver's BaseDriver version is 10.3.0
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Session created with session id: 9bbcebde-5b43-40d7-9e87-2a016404a751
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Cannot sort build-tools folders ["renderscript","lld-bin","lib64","lib"] by semantic version names.
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Falling back to sorting by modification date. Original error: Invalid Version: renderscript
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Found 4 'build-tools' folders under 'C:\Users\dirosa12\.katalon\tools\android_sdk' (newest first):
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m     C:\Users\dirosa12\.katalon\tools\android_sdk\build-tools\renderscript
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m     C:\Users\dirosa12\.katalon\tools\android_sdk\build-tools\lld-bin
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m     C:\Users\dirosa12\.katalon\tools\android_sdk\build-tools\lib64
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m     C:\Users\dirosa12\.katalon\tools\android_sdk\build-tools\lib
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\dirosa12\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Retrieving device list
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Using device: emulator-5554
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\dirosa12\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Neither 'app' nor 'appPackage' was set. Starting UiAutomator2 without the target application
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Error 'Could not find 'aapt2.exe' in ["C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\platform-tools\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\emulator\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\cmdline-tools\\latest\\bin\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\tools\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\tools\\bin\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\renderscript\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\renderscript\\lib\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lld-bin\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lld-bin\\lib\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lib64\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lib64\\lib\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lib\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lib\\lib\\aapt2.exe"]. Do you have Android Build Tools installed at 'C:\Users\dirosa12\.katalon\tools\android_sdk'?' while getting badging info
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Cannot read version codes of 'C:\Users\dirosa12\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' and/or 'io.appium.settings'
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Cannot read version names of 'C:\Users\dirosa12\.appium\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk' and/or 'io.appium.settings'
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m The installation of 'settings_apk-debug.apk' took 2775ms
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Error 'Could not find 'aapt2.exe' in ["C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\platform-tools\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\emulator\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\cmdline-tools\\latest\\bin\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\tools\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\tools\\bin\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\renderscript\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\renderscript\\lib\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lld-bin\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lld-bin\\lib\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lib64\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lib64\\lib\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lib\\aapt2.exe","C:\\Users\\dirosa12\\.katalon\\tools\\android_sdk\\build-tools\\lib\\lib\\aapt2.exe"]. Do you have Android Build Tools installed at 'C:\Users\dirosa12\.katalon\tools\android_sdk'?' while getting badging info
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Cannot read version codes of 'C:\Users\dirosa12\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v9.11.1.apk' and/or 'io.appium.uiautomator2.server'
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Cannot read version names of 'C:\Users\dirosa12\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v9.11.1.apk' and/or 'io.appium.uiautomator2.server'
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Server packages are not going to be (re)installed
+[38;5;158m[9bbcebde][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Starting UIAutomator2 server 9.11.1
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Using UIAutomator2 server from 'C:\Users\dirosa12\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v9.11.1.apk' and test from 'C:\Users\dirosa12\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m socket hang up
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Determined the downstream protocol as 'W3C'
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Screen already unlocked, doing nothing
+[38;5;158m[9bbcebde][0m[38;5;212m[AppiumDriver@f958][0m New AndroidUiautomator2Driver session created successfully, session 9bbcebde-5b43-40d7-9e87-2a016404a751 added to master session list
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m10554 ms - 1015[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/status[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /status [39m[33m404[39m [90m4 ms - 3161[39m
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9bbcebde-5b43-40d7-9e87-2a016404a751/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9bbcebde-5b43-40d7-9e87-2a016404a751/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9bbcebde-5b43-40d7-9e87-2a016404a751/execute/sync[39m [90m{"script":"mobile: getSystemBars","args":[]}[39m
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9bbcebde-5b43-40d7-9e87-2a016404a751/execute/sync [39m[32m200[39m [90m218 ms - 149[39m
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9bbcebde-5b43-40d7-9e87-2a016404a751/execute/sync[39m [90m{"script":"mobile: activateApp","args":[{"appId":"lat.brio.brio3.quality","bundleId":"lat.brio.brio3.quality"}]}[39m
+[38;5;158m[9bbcebde][0m[38;5;123m[BaseDriver][0m The following arguments are not known and will be ignored: bundleId
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9bbcebde-5b43-40d7-9e87-2a016404a751/execute/sync [39m[32m200[39m [90m428 ms - 14[39m
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9bbcebde-5b43-40d7-9e87-2a016404a751/source[39m [90m{}[39m
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;158m[9bbcebde][0m[38;5;-4m[AndroidUiautomator2Driver@85ac][0m Replacing sessionId 97731e16-29f2-49a4-bdb6-d69ca697d52a with 9bbcebde-5b43-40d7-9e87-2a016404a751
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9bbcebde-5b43-40d7-9e87-2a016404a751/source [39m[32m200[39m [90m97 ms - 7860[39m
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9bbcebde-5b43-40d7-9e87-2a016404a751/screenshot[39m [90m{}[39m
+[38;5;158m[9bbcebde][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9bbcebde-5b43-40d7-9e87-2a016404a751/screenshot [39m[32m200[3[38;5;27m[73a7e24d][0m[38;5;-26m[AndroidUiautomator2Driver@083f][0m Shutting down because we waited 1800 seconds for a command
+[38;5;27m[73a7e24d][0m[38;5;163m[AppiumDriver@aac2][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;27m[73a7e24d][0m[38;5;163m[AppiumDriver@aac2][0m Removing session '73a7e24d-6f18-4174-a12b-15a2511b1f34' from our master session list
+[38;5;27m[73a7e24d][0m[38;5;-26m[AndroidUiautomator2Driver@083f][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;27m[73a7e24d][0m[38;5;-26m[AndroidUiautomator2Driver@083f][0m Unable to remove system port forward: Error executing adbExec. Original error: 'Command ''C:\Users\dirosa12\.katalon\tools\android_sdk\platform-tools\adb.exe' -P 5037 -s emulator-5554 forward --remove tcp\:8235' exited with code 1'; Command output: adb.exe: error: listener 'tcp:8235' not found
+
