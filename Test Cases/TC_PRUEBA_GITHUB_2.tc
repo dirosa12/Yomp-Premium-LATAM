@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_PRUEBA_GITHUB_2</name>
+   <tag>#LATAM</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f4f8a8a-eced-47ae-b30d-8fe518d39ebc</testCaseGuid>
+</TestCaseEntity>
