@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_PRUEBA_GITHUB</name>
+   <name>TC_PRUEBA_GITHUB_TEST2</name>
    <tag>#LATAM</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
